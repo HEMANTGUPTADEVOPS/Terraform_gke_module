@@ -1,0 +1,14 @@
+keyfile        = "appolo-gke-keyfile.json"
+project_id         = "grand-ward-283704"
+region             = "asia-south1"
+zones              = ["asia-south1-a"]
+name               = "appolo-gke-cluster"
+machine_type       = "n1-standard-1"
+min_count          = 1
+max_count          = 3
+disk_size_gb       = 10
+service_account    = "appolo-gke@grand-ward-283704.iam.gserviceaccount.com"
+initial_node_count = 1 
+min_master_version = 1.16
+node_version = 1.16
+master_version = 1.16
